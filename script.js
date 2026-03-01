@@ -1,23 +1,23 @@
 function option1() {
   document.getElementById("message").innerHTML =
-  "🚗 DELIVERY BOY DISPATCHED.<br><br>Peeloz. Waffles. Solid masti.<br><br>Status: speeding through emotional traffic.<br><br>Tips accepted in forehead kisses.";
+  "🚗 BABY MILLU DISPATCHED.<br><br>Peeloz. Waffles. Solid masti.<br><br>Status: speeding through emotional traffic.<br><br>Tips appreciated.";
 }
 
 function option2() {
   document.getElementById("message").innerHTML =
-  "📺 Friends loading...<br><br>I am laughing 0.4 seconds after you.<br>Also performing virtual pitti attacks.<br><br>You have been mildly bullied with love.";
+  "📺 Friends loading...<br><br>I am laughing 0.4 seconds after you.<br>Also virtual pitti is available.";
   
   document.getElementById("bgAudio").play();
 }
 
 function option3() {
   document.getElementById("message").innerHTML =
-  "♟ Welcome to Chaos Chess.<br><br>She: The Queen.<br>Me: emotionally unstable pawn.<br><br>Objective: survive her brilliance.";
+  "♟ Welcome to Chaos Chess.<br><br>She: The Queen.<br>Me: emotionally unstable BT.<br><br>Objective: Her telling me how to checkmate.";
 }
 
 function option4() {
   document.getElementById("message").innerHTML =
-  "🎁 OFFER ACTIVATED.<br><br>One pitti requested.<br>Second automatically added.<br><br>Terms & Conditions:<br>Unlimited cuddles.<br>No refunds.<br>Valid forever.";
+  "🎁 OFFER ACTIVATED.<br><br>One pitti requested in person.<br>Nillu and Pillu auto added to the cart.<br><br>Terms & Conditions:<br>Unlimited huggies.<br>Chewy Mints?.<br>Valid forever.";
 }
 
 /* generate floating soot sprites */
