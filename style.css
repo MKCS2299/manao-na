@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(to top, #fbc2eb, #a6c1ee);
+  color: #333;
+}
+
+h1 {
+  margin-top: 60px;
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 14px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff8fab;
+  color: white;
+  cursor: pointer;
+  width: 270px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1) rotate(-2deg);
+  background-color: #ff5d8f;
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 18px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 150px;
+  padding: 15px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+}
+
+/* floating soot sprites */
+.sprite {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  animation: float 10s infinite linear;
+}
+
+@keyframes float {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-10vh); }
+}
